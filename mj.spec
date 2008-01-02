@@ -10,6 +10,7 @@ Url:		http://www.stevens-bradfield.com/MahJong/
 Source0:	%{name}-%{version}-src.tar.bz2
 Group:		Games/Boards
 License:	GPL
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	gtk+-devel
 
 %description
