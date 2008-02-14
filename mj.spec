@@ -5,7 +5,7 @@
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-Summary:	mj is the Chinese game of mah-jong
+Summary:	Chinese game of mah-jong
 Url:		http://www.stevens-bradfield.com/MahJong/
 Source0:	%{name}-%{version}-src.tar.bz2
 Group:		Games/Boards
