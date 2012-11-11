@@ -1,0 +1,20 @@
+--- greedy.c.str	2009-04-06 09:29:29.000000000 +0200
++++ greedy.c	2009-04-06 09:30:04.000000000 +0200
+@@ -166,7 +166,7 @@
+       parsefloatlist(argv[i],suitness);
+     }
+     else {
+-      fprintf(stderr,argv[i]);
++      fprintf(stderr,"%s",argv[i]);
+       usage(argv[0],"unknown option or argument");
+     }
+   }
+@@ -1162,7 +1162,7 @@
+       sprintf(tb,"(%4.1f) ",mval);
+       strncpy(&totbuf[11*(reclevel-1)+4],tb,7);
+     }
+-    else printf(totbuf);
++    else printf("%s",totbuf);
+   }
+   return mval;
+ }
