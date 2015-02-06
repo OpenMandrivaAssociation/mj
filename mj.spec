@@ -1,7 +1,7 @@
 Summary:	Chinese game of mah-jong
 Name:		mj
 Version:	1.14
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Games/Boards
 Url:		http://www.stevens-bradfield.com/MahJong/
