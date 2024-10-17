@@ -4,7 +4,7 @@ Version:	1.16
 Release:	1
 License:	GPLv2+
 Group:		Games/Boards
-Url:		http://www.stevens-bradfield.com/MahJong/
+Url:		https://www.stevens-bradfield.com/MahJong/
 Source0:	http://mahjong.julianbradfield.org/Source/%{name}-%{version}-src.tar.gz
 BuildRequires:	pkgconfig(gtk+-2.0)
 
