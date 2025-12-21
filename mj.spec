@@ -6,6 +6,7 @@ License:	GPLv2+
 Group:		Games/Boards
 Url:		https://www.stevens-bradfield.com/MahJong/
 Source0:	http://mahjong.julianbradfield.org/Source/%{name}-%{version}-src.tar.gz
+BuildRequires:	make
 BuildRequires:	pkgconfig(gtk+-2.0)
 
 %description
